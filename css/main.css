@@ -1,0 +1,54 @@
+.hlines{
+    cursor: pointer;
+    stroke-linecap: round;
+    stroke-dasharray: 10, 5
+}
+.china{ pointer-events: none;}
+
+.pro, .hpro{
+    stroke-width: 1;
+    stroke: #fff;
+}
+
+.arc{
+    stroke: #fff;
+    stroke-width: 1.5;
+    fill: none;
+}
+
+
+#Map{
+    position: relative;
+}
+
+.info{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 180px;
+    left: 800px;
+    /* background: #eee; */
+    /* text-align: right; */
+    font-family: '华文楷体';
+    font-size: 1.1em;
+}
+#money{ color: #d48d92; }
+#source{ color: #d48d92; }
+#target{ color: #5c8aad; }
+#money span{
+    font-size: 2.8em;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+.info span{ font-family: 'Times New Roman, 微软雅黑';}
+
+#Map .img{
+    text-align: right;
+    
+}
+#Map .img img{ width: 100%; }
+#trackmap .img{position: absolute; width: 100px; top: 430px; left:630px;}
+.info .img{ width: 180px; margin-top: 20px;}
+
